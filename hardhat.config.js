@@ -51,6 +51,10 @@ module.exports = {
       url: `https://mainnet.infura.io/v3/${process.env.INFURA_KEY}`,
       accounts: [`0x${process.env.MNEMONIC}`],
     },
+    cndl: {
+      url: "https://rpc.cndlchain.com",
+      accounts: [`0x${process.env.MNEMONIC}`],
+    },
     matic: {
       url: "https://polygon-rpc.com/",
       accounts: [`0x${process.env.MNEMONIC}`],
